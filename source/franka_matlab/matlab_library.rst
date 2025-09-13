@@ -126,7 +126,7 @@ Robot Homing
 
 .. code-block:: matlab
 
-    result = fr.robot_homming();
+    result = fr.robot_homing();
 
 Moves the robot to its home configuration using point-to-point motion.
 
