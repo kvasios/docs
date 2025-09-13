@@ -14,29 +14,6 @@ Option 2: Programmatically
 
     uiopen('<path to your franka.mltbx file>', 1);
 
-License Management & Activation
--------------------------------
-
-1. Generate System Identifier
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Execute the following command in MATLAB to generate your system's unique identifier:
-
-.. code-block:: matlab
-
-    franka_toolbox_uid_gen()
-
-2. Obtain License
-^^^^^^^^^^^^^^^^^
-Contact Franka Robotics with your generated identifier to receive your license number.
-
-3. Activate License
-^^^^^^^^^^^^^^^^^^^
-For Franka Research 3 robots:
-
-.. code-block:: matlab
-
-    franka_toolbox_install('<your_license_number>');
-
 Uninstall
 ---------
 
